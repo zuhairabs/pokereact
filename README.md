@@ -8,10 +8,10 @@ Explore the app live:
 
 - Pokereact Demo _(https://zuhairabs.github.io/pokereact)_
 
-![Pokémon Desktop List](./public/pc-list.png)
-![Pokémon Desktop List](./public/pc-details.png)
-![Pokémon Responsive List](./public/mobi-list.png)
-![Pokémon Responsive Details](./public/mobi-details.png)
+![Pokémon Desktop List](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/pc-list.png)
+![Pokémon Desktop List](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/pc-details.png)
+![Pokémon Responsive List](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/mobi-list.png)
+![Pokémon Responsive Details](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/mobi-details.png)
 
 ## Libraries Used
 
@@ -31,7 +31,7 @@ Explore the app live:
 
 ## Test Coverage
 
-_(Add coverage screenshot)_
+![test Coverage](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/coverage.png)
 
 ## How to Run
 
