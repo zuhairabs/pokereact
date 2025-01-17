@@ -23,5 +23,6 @@
     "allowSyntheticDefaultImports": true
   },
   "include": ["src", "src/**/*.ts", "src/**/*.tsx"],
-  "types": ["jest", "node"]
+  "exclude": ["src/tests"],
+  "types": ["jest", "node", "@testing-library/jest-dom"]
 }

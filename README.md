@@ -52,6 +52,10 @@ Explore the app live:
     ```shell
     yarn start
     ```
+    or
+    ```shell
+    yarn preview
+    ```
 
 ### For Testing
 
