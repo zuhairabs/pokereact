@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PokemonSvg from "../assets/poke-symbol.png";
 
 const Navbar: React.FC = () => {
@@ -5,7 +6,9 @@ const Navbar: React.FC = () => {
     <div className="navbar">
       <img className="poke-symbol" src={PokemonSvg} alt="symbol" />
       <img className="logo" src={PokemonSvg} alt="logo" />
-      <h1>POKEREACT</h1>
+      <Link to="/">
+        <h1>POKEREACT</h1>
+      </Link>
     </div>
   );
 };

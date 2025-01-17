@@ -33,6 +33,10 @@
   z-index: 95;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .navbar h1 {
   font-size: 4rem;
   font-weight: 900;
@@ -83,7 +87,7 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  height: 100svh;
+  height: 80svh;
   width: 100%;
 }
 
@@ -289,6 +293,18 @@
   .pikachu-corner-pop img {
     width: 60px;
     height: 60px;
+  }
+
+  .error-page-wrapper {
+    height: 50svh;
+  }
+
+  .error-page-wrapper p {
+    font-size: 0.8rem;
+  }
+
+  .error-page-wrapper h1 {
+    font-size: 2rem;
   }
 }
 /* End Responsive */
