@@ -6,7 +6,7 @@ import { configDefaults } from "vitest/config";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '',
+  base: 'pokereact',
   plugins: [react()],
   test: {
     environment: "jsdom",
