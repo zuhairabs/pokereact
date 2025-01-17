@@ -1,0 +1,294 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  height: 60px;
+  padding-left: 1rem;
+  color: var(--text-primary);
+  margin-top: 2rem;
+  z-index: 993;
+}
+
+.navbar .logo {
+  width: 60px;
+  height: 60px;
+  background-color: var(--text-primary);
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.navbar .poke-symbol {
+  position: fixed;
+  top: -6rem;
+  right: -6rem;
+  width: 400px;
+  height: 400px;
+  background: -webkit-linear-gradient(#fff, #000);
+  border-radius: 50%;
+  filter: grayscale(1);
+  opacity: 0.2;
+  rotate: 45deg;
+  z-index: 95;
+}
+
+.navbar h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 0;
+  opacity: 0.5;
+  background: -webkit-linear-gradient(#fff, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* End Navbar */
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding-left: 1rem;
+  background: var(--secondary);
+  color: var(--text-primary);
+  box-shadow: rgba(43, 43, 43, 0.1) 0px 4px 12px;
+  z-index: 999;
+}
+
+.footer .ih-logo {
+  height: 20px;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.footer p a {
+  color: var(--text-primary);
+}
+/* End Footer */
+
+/* Error Start */
+.error-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 100svh;
+  width: 100%;
+}
+
+.error-page-wrapper img {
+  width: 100px;
+  height: 100px;
+  background-color: var(--text-primary);
+  border-radius: 50%;
+}
+
+.error-page-wrapper h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.error-page-wrapper p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+/* Error End */
+
+/* Pokemon List */
+.poke-list-wrapper {
+  display: flex;
+  margin-top: 3rem;
+  position: relative;
+  z-index: 99;
+  padding-bottom: 4rem;
+}
+
+.poke-list-wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  list-style: none;
+}
+
+.poke-list-wrapper .poke-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  background-color: var(--secondary);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.poke-list-wrapper .poke-item:hover {
+  transform: scale(1.05);
+}
+
+.poke-list-wrapper .poke-item p {
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.poke-list-wrapper .poke-item img {
+  width: 80px;
+  height: 80px;
+}
+/* End Pokemon List */
+
+/* Poke details */
+.poke-details-page {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.poke-details-page img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+}
+
+.poke-details-page h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.poke-details-page .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+.poke-details-page .grid p {
+  font-weight: 500;
+  margin: 0;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.poke-details-page .pill-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poke-details-page .grid .pill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  width: 60px;
+  height: 25px;
+  border-radius: 5px;
+}
+/* End Poke details */
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.breadcrumb .parent a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.breadcrumb .parent:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .current {
+  cursor: default;
+}
+
+.only-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50svh;
+  font-weight: 700;
+  font-size: 2rem;
+}
+/* End Breadcrumb */
+
+/* Responsive */
+@media (max-width: 991px) {
+  .navbar h1 {
+    font-size: 2rem;
+  }
+
+  .navbar .logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar .poke-symbol {
+    display: none;
+  }
+
+  .poke-list-wrapper {
+    margin-top: 2rem;
+  }
+
+  .poke-list-wrapper ul {
+    padding: 0 1rem;
+    justify-content: center;
+  }
+
+  .poke-list-wrapper .poke-item {
+    width: 120px;
+    height: 120px;
+  }
+
+  .poke-details-page h1 {
+    font-size: 2rem;
+  }
+
+  .poke-details-page {
+    margin-top: 1rem;
+  }
+
+  .poke-details-page img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: 70px;
+  }
+
+  .pikachu-corner-pop {
+    right: 12px;
+  }
+
+  .pikachu-corner-pop img {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* End Responsive */

@@ -1,0 +1,67 @@
+:root {
+  --primary: #111111;
+  --secondary: #2b2b2b;
+  --text-primary: #ffffff;
+}
+
+body {
+  font-family: "Poppins", serif;
+  background: var(--primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+.noise {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.noise {
+  z-index: 100;
+  opacity: 0.06;
+  background-image: url(https://www.lera.business/noise.gif);
+  background-position: 0 0;
+  background-size: 200px;
+  background-attachment: fixed;
+}
+
+.app {
+  min-height: 100svh;
+  position: relative;
+}
+
+/* Peeking Pikachu */
+.pikachu-corner-pop {
+  position: absolute;
+  bottom: -1.5rem;
+  right: 0;
+  animation: peek-in-out 2s ease-in-out forwards infinite;
+  z-index: 99;
+}
+
+.pikachu-corner-pop img {
+  height: 120px;
+  width: 120px;
+  transform: rotate(-10deg);
+}
+
+@keyframes peek-in-out {
+  0% {
+    transform: translate(100%, 100%); /* Start off-screen and rotated */
+  }
+  30% {
+    transform: translate(0, 0); /* Move to original position and upright */
+  }
+  70% {
+    transform: translate(0, 0); /* Stay in position */
+  }
+  100% {
+    transform: translate(100%, 100%); /* Move back off-screen and rotated */
+  }
+}
+/* End Peeking Pikachu */
