@@ -7,10 +7,10 @@ A React-based Pokémon application developed by [Zuhair Abbas](https://www.linke
 Explore the app live:
 - Pokereact Demo _(https://pokereact-ihorizons.netlify.app/)_
 
-![Pokémon Desktop List](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/pc-list.png)
-![Pokémon Desktop List](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/pc-details.png)
-![Pokémon Responsive List](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/mobi-list.png)
-![Pokémon Responsive Details](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/mobi-details.png)
+| ![Pokémon Desktop List](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/pc-list.png)
+| ![Pokémon Desktop List](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/pc-details.png)
+| ![Pokémon Responsive List](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/mobi-list.png)
+| ![Pokémon Responsive Details](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/mobi-details.png)
 
 ## Libraries Used
 
