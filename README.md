@@ -5,8 +5,7 @@ A React-based Pokémon application developed by [Zuhair Abbas](https://www.linke
 ## Demo
 
 Explore the app live:
-- Please click on logo on top to see homepage as github pages routing mismatches with react application. Thanks!
-- Pokereact Demo _(https://zuhairabs.github.io/pokereact)_
+- Pokereact Demo _(https://pokereact-ihorizons.netlify.app/)_
 
 ![Pokémon Desktop List](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/pc-list.png)
 ![Pokémon Desktop List](https://raw.githubusercontent.com/zuhairabs/pokereact/refs/heads/main/public/screenshots/pc-details.png)
